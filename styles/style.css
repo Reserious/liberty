@@ -310,7 +310,7 @@ height: 400px;
     transition: all .5s ease 0s;
     background-color:#000000eb;
     z-index: 1;
-    padding: 90px 10px 20px 10px;
+    padding: 200px 10px 20px 10px;
 
    }
    .nav.active {
@@ -345,9 +345,18 @@ height: 400px;
   .header__burger{
     bottom: 34px;
   }
+  .header__logo {
+    margin-top: 0;
+  }
 
 .left {
   padding-left: 0;
+}
+.footer {
+  margin-top: 55px;
+}
+.footer__logo {
+  padding-top: 0;
 }
 
 .footer__credits {
@@ -393,6 +402,9 @@ height: 400px;
 .intro__shop {
   flex-wrap: wrap;
 }
+.intro__shop-content:last-child {
+   margin-bottom: 40px;
+}
 .intro__shop-content {
   margin-bottom: 20px;
 }
@@ -400,7 +412,7 @@ height: 400px;
   padding: 0;
 }
 .intro__suptitle {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 
